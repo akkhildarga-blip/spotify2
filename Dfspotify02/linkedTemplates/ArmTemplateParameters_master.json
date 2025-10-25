@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Dfspotify02"
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"datalake_LS_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "serverspotify2.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "dbspotify"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "adminakkhil"
+		},
+		"datalake_LS_properties_typeProperties_url": {
+			"value": "https://akkhilspotifystorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
